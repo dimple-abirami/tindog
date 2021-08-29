@@ -7,6 +7,9 @@ h1,h2,h3,h4,h5,h6{
 p{
     color: #8f8f8f;
 }
+body{
+    text-align: center;
+}
 
 
 /*headings*/
@@ -19,13 +22,14 @@ p{
 .section-heading{
     font-weight: 600;
     font-size:2rem;
-
     line-height: 1.5;
 }
 
 #title{
+    text-align: left;
     background-color: #ff4c68;
     color: #fff;
+    
 }
 .container-fluid{
     padding: 3% 15% 7%;
@@ -71,7 +75,7 @@ p{
     position: relative;
 }
 .feature-box{
-    text-align: center;
+    
     padding: 5%;
 }
 .feature-title{
@@ -85,7 +89,7 @@ p{
 /*testimonials*/
 #testimonials{
     
-    text-align: center;
+    
     background-color: #ef8172;
     color: white;
 }
@@ -102,7 +106,7 @@ p{
 }
 #press{
     background-color: #ef8172;
-    text-align: center;
+
     padding-bottom: 3%;
 }
 .press-logo{
@@ -116,6 +120,7 @@ p{
 #pricing{
     padding: 100px;
 }
+
 .price-text{
     font-weight: 600;
     font-size:2rem;
@@ -124,14 +129,14 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
-    text-align: center;
+    
 }
 /*CTA section*/
 #cta{
     background-color: #ff4c68;
      color:#fff ;
      padding: 7% 15%;
-     text-align: center;
+     
 
 }
 .cta-heading{
